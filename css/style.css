@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+li{
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.menu{
+    display: flex;
+}
+.card-img{
+    max-width: 600%;
+    display: block;
+    margin: 0 auto;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #fae853;
+    border-radius: 25px;
+    transition: 5s;
+}
+.btn:hover{
+    transition: 5s;
+    background-color: #fae853;
+}
+.link{
+    padding: 20px 15px;
+    border: 1px solid transparent;
+    display: inline-block;
+}
+.link:hover{
+    border: 1px solid transparent;
+    color: red;
+}
+
+.services-block{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.services-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.services-row{
+    display: flex;
+    justify-content: space-between;
+}
+.services-card{
+    max-width: 300px;
+    border: 1px solid rgba(184, 219, 12, 0.521);
+    border-radius: 20px;
+    padding: 50px 0;
+    margin: 20px; 
+    margin-bottom: 110px;
+}
+.services-text{
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+.services-img1{
+    background-image  : url(../img/love.png);
+}
+.services-img2{
+    background-image  : url(../img/card.png);
+}
+.services-img3{
+    background-image  : url(../img/nastroika.png);
+}
+.services-img4{
+    background-image  : url(../img/cheloveki.png);
+}
+.services-img5{
+    background-image  : url(../img/chlov.png);
+}
+.services-img6{
+    background-image  : url(../img/sms.png);
+}
+
+.price{
+    text-align: center;
+}
+.price-title{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col{
+    width: 351px;
+    border:0.5px  solid  #AAB4FF;
+    box-shadow: 0px 4px 16px #aab4ff8a;
+    border-radius: 50px;
+    padding-bottom: 92px;
+    transition: 1s;
+}
+.col-day{
+    font-size: 36px;
+    background-color: #AAB4FF;
+    color: #fff;
+    padding: 25px 0;
+    border-radius: 50px 50px 0 0;
+    margin-bottom: 85px;
+    transition: 1s;
+}
+.col:hover .col-day{
+    background-color: #fdf160;
+    color: #000;
+}
+.col h3{
+    color:#5569FF ;
+    font-size: 36px;
+    margin-bottom: 32px;
+    transition: 1s;
+}
+.col:hover h3{
+    color: #fdf160;
+}
+.col-text{
+    line-height: 34px;
+    font-size: 26px;
+    color: #0000007A;
+    margin-bottom: 83.7px;
+}
+.col-btn{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 60px;
+    background: #AAB4FF;
+    border-radius: 75px;
+    transition: 1s;
+}
+.col:hover .col-btn{
+    color: #000;
+    background-color: #fdf160;
+}
